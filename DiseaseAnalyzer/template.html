@@ -42,6 +42,9 @@
 		<div ng-show="score==10">
 		No disease detected
 		</div>
+		<div ng-show="score==11">
+		No disease detected
+		</div>
 		<div ng-show="score==12">
 		No disease detected
 		</div>
@@ -57,13 +60,25 @@
 		<div ng-show="score==22">
 		You probably have common cold
 		</div>
+		<div ng-show="score==23">
+		You probably have common cold
+		</div>
 		<div ng-show="score==19">
 		You probably have common cold
 		</div>
 		<div ng-show="score==21">
 		You probably have common cold
 		</div>
+		<div ng-show="score==59">
+		You probably have common cold
+		</div>
+		<div ng-show="score==57">
+		You probably have common cold
+		</div>
 		<div ng-show="score==24">
+		You probably have flu
+		</div>
+		<div ng-show="score==25">
 		You probably have flu
 		</div>
 		<div ng-show="score==50">
@@ -97,7 +112,10 @@
 		You probably have measles
 		</div>
 		<div ng-show="score==29">
-		You probably have german measles
+		You probably have measles
+		</div>
+		<div ng-show="score==28">
+		You probably have measles
 		</div>
 		<div ng-show="score==0">
 		No disease detected
@@ -135,14 +153,15 @@
 		<div ng-show="score==74">
 		You probably have flu
 		</div>
-		<div ng-show="score==58">
-		You probably have chicken pox
-		</div>
 		<div ng-show="score==23">
-		You probably have common cold
+		You probably have flu
+		</div>
+		<div ng-show="score==58">
+		You probably have flu
 		</div>
 		<button ng-click="reset()">Use again</button>
 	</div>
+
 </div>
 
 <div class="intro" ng-show="!inProgress">
